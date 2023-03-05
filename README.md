@@ -20,8 +20,8 @@ Gives administrators the ability to assign different weights to each server, ass
 ### Weighted response time:
 Averages the response time of each server, and combines that with the number of connections each server has open to determine where to send traffic. By sending traffic to the servers with the quickest response time, the algorithm ensures faster service for users.
 
-### Resource-based: Distributes 
-load based on what resources each server has available at the time. Specialized software (called an "agent") running on each server measures that server's available CPU and memory, and the load balancer queries the agent before distributing traffic to that server.
+### Resource-based: 
+Distributes load based on what resources each server has available at the time. Specialized software (called an "agent") running on each server measures that server's available CPU and memory, and the load balancer queries the agent before distributing traffic to that server.
 
 ## Static load balancing algorithms
 
