@@ -16,6 +16,7 @@ Checks which servers have the fewest connections open at the time and sends traf
 
 ### Weighted least connection: 
 Gives administrators the ability to assign different weights to each server, assuming that some servers can handle more connections than others.
+Improved Algorithm research doc: https://www.irjet.net/archives/V5/i3/IRJET-V5I3455.pdf
 
 ### Weighted response time:
 Averages the response time of each server, and combines that with the number of connections each server has open to determine where to send traffic. By sending traffic to the servers with the quickest response time, the algorithm ensures faster service for users.
